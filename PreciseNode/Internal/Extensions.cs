@@ -258,9 +258,10 @@ namespace RegexKSP {
 				double eangle = ((Math.Atan2(prograde.y, prograde.x) - Math.Atan2(position.y, position.x)) * 180.0 / Math.PI).Angle360();
 
 				// Correct to angle from retrograde if needed.
-				if (eangle > 180) {
-					eangle = 180 - eangle;
-				}
+                                // MMD: Removed as I dislike this, but kept here in case it's wanted or needed later.
+				//if (eangle > 180) {
+				//	eangle = 180 - eangle;
+				//}
 
 				return eangle;
 			} else {
