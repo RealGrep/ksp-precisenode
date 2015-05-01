@@ -1,6 +1,6 @@
 {
   "NAME": "PreciseNode",
-  "URL": "https://raw.githubusercontent.com/RealGrep/ksp-precisenode/PreciseNode/PreciseNode.version",
+  "URL": "https://raw.githubusercontent.com/RealGrep/ksp-precisenode/master/PreciseNode/PreciseNode.version",
   "DOWNLOAD" : "https://github.com/RealGrep/ksp-precisenode/releases",
   "VERSION": {
     "MAJOR": 1,
