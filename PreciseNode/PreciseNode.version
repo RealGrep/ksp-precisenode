@@ -2,11 +2,16 @@
   "NAME": "PreciseNode",
   "URL": "https://raw.githubusercontent.com/RealGrep/ksp-precisenode/master/PreciseNode/PreciseNode.version",
   "DOWNLOAD" : "https://github.com/RealGrep/ksp-precisenode/releases",
+  "GITHUB" :
+    "USERNAME":"RealGrep",
+    "REPOSITORY":"ksp-precisenode",
+    "ALLOW_PRE_RELEASE":false,
+  },
   "VERSION": {
     "MAJOR": 1,
     "MINOR": 1,
     "PATCH": 3,
-    "BUILD": 1
+    "BUILD": 0
   },
   "KSP_VERSION": {
     "MAJOR": 1,

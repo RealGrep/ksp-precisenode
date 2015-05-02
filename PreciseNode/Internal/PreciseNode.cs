@@ -625,7 +625,7 @@ namespace RegexKSP {
 			options.removeUsedNodes = GUILayout.Toggle(options.removeUsedNodes, "Remove used nodes");
             //TODO: Add threshold controls for removing used nodes
 #endif
-
+/*
 			if (UpdateChecker.Done && (UpdateChecker.UpdateAvailable == true)) {
 				GUILayout.Space(5);
 				Color oldColor = GUI.color;
@@ -633,7 +633,7 @@ namespace RegexKSP {
 				GUILayout.Label("An update to this plugin is available.");
 				GUI.color = oldColor;
 			}
-
+*/
 			GUILayout.EndVertical();
 			GUI.DragWindow();
 		}

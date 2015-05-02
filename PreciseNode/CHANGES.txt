@@ -24,13 +24,12 @@ Change Conics: Keypad Enter
 Hide Window: P
 Open Node: O
 
-1.1.3.1, 2015-05-01 (Addle/RealGrep)
-- Updated for KSP 1.0.2
-
 1.1.3, 2015-05-01 (Addle/RealGrep)
-- Updated for KSP 1.0.0
+- Updated for KSP 1.0.2
 - Removed adjustment of ejection angle to be relative to retrograde if the angle was greater than 180 degrees.
 - Fixed null reference exception due to not having unlocked nodes yet in career.
+- Fixed error in date/time calculation.
+- Removed CompatibilityChecker and UpdateChecker. Replaced with a KSP-AVC .version file. If you'd like to know when there are updates, or running on an unsupported KSP version, install KSP-AVC. It's great.
 
 1.1.2, 2014-12-16
 - Updated for KSP 0.90.0.
